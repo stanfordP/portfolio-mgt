@@ -1,0 +1,94 @@
+header
+{
+	border-top: double;
+	text-align: center;
+}
+body
+{
+	background:white;
+	background-repeat: no-repeat;
+	background-position: right, border-top;
+	background-attachment: scroll;
+	border-spacing: 100px;
+	border-style: double dashed;
+}
+border-style
+ {
+	border-style: dotted dashed solid blue;
+}
+
+h1
+{
+	color: rgb(10, 0, 0);
+	text-align: center;
+	text-decoration: none;
+}
+h2
+{
+	background-color: #32cd32;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+h4
+{
+	background-color: limegreen;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+#p01
+{
+	color: red
+}
+p
+{
+	color: green;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+p
+{
+	border: 5px solid powderblue;
+	padding: 10px;
+	margin: 15;
+	page-break-inside: 5px;
+}
+p.error
+{
+	background-color: white;
+}
+a:active
+{color: green;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:visited
+{color: blue;
+	background-color:transparent;
+	text-decoration: none;
+}
+a:hover
+{color:#32ce36;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:link,a:active{
+	background-color: white;
+	color: purple;
+	text-align: 5px solid white;
+	text-decoration: underline;
+	margin: 10px;
+	padding: 2px;
+}
+a:active, a:hover{
+	background-color: green;
+	color: blue;
+	text-align: 2px solid green;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
